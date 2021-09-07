@@ -483,6 +483,27 @@ $ random-mt19937 -n 10 --seed 1234
 
 <!-- /.references -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/random/base/mt19937`][@stdlib/random/base/mt19937]: A 32-bit Mersenne Twister pseudorandom number generator.
+-   [`@stdlib/random/iter/mt19937`][@stdlib/random/iter/mt19937]: create an iterator for a 32-bit Mersenne Twister pseudorandom number generator.
+-   [`@stdlib/random/streams/minstd`][@stdlib/random/streams/minstd]: create a readable stream for a linear congruential pseudorandom number generator (LCG) based on Park and Miller.
+-   [`@stdlib/random/streams/minstd-shuffle`][@stdlib/random/streams/minstd-shuffle]: create a readable stream for a linear congruential pseudorandom number generator (LCG) whose output is shuffled.
+-   [`@stdlib/random/streams/randi`][@stdlib/random/streams/randi]: create a readable stream for generating pseudorandom numbers having integer values.
+-   [`@stdlib/random/streams/randu`][@stdlib/random/streams/randu]: create a readable stream for generating uniformly distributed pseudorandom numbers between 0 and 1.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 
 <section class="main-repo" >
 
@@ -544,11 +565,25 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 
 [readable-stream]: https://nodejs.org/api/stream.html
 
-[@stdlib/random/base/mt19937]: https://github.com/stdlib-js/random-base-mt19937
-
 [@stdlib/array/uint32]: https://github.com/stdlib-js/array-uint32
 
 [@matsumoto:1998a]: https://doi.org/10.1145/272991.272995
+
+<!-- <related-links> -->
+
+[@stdlib/random/base/mt19937]: https://github.com/stdlib-js/random-base-mt19937
+
+[@stdlib/random/iter/mt19937]: https://github.com/stdlib-js/random-iter-mt19937
+
+[@stdlib/random/streams/minstd]: https://github.com/stdlib-js/random-streams-minstd
+
+[@stdlib/random/streams/minstd-shuffle]: https://github.com/stdlib-js/random-streams-minstd-shuffle
+
+[@stdlib/random/streams/randi]: https://github.com/stdlib-js/random-streams-randi
+
+[@stdlib/random/streams/randu]: https://github.com/stdlib-js/random-streams-randu
+
+<!-- </related-links> -->
 
 </section>
 
