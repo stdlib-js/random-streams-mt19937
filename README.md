@@ -20,7 +20,7 @@ limitations under the License.
 
 # MT19937
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Create a [readable stream][readable-stream] for a 32-bit [Mersenne Twister][@stdlib/random/base/mt19937] pseudorandom number generator.
 
@@ -491,12 +491,12 @@ $ random-mt19937 -n 10 --seed 1234
 
 ## See Also
 
--   [`@stdlib/random/base/mt19937`][@stdlib/random/base/mt19937]: A 32-bit Mersenne Twister pseudorandom number generator.
--   [`@stdlib/random/iter/mt19937`][@stdlib/random/iter/mt19937]: create an iterator for a 32-bit Mersenne Twister pseudorandom number generator.
--   [`@stdlib/random/streams/minstd`][@stdlib/random/streams/minstd]: create a readable stream for a linear congruential pseudorandom number generator (LCG) based on Park and Miller.
--   [`@stdlib/random/streams/minstd-shuffle`][@stdlib/random/streams/minstd-shuffle]: create a readable stream for a linear congruential pseudorandom number generator (LCG) whose output is shuffled.
--   [`@stdlib/random/streams/randi`][@stdlib/random/streams/randi]: create a readable stream for generating pseudorandom numbers having integer values.
--   [`@stdlib/random/streams/randu`][@stdlib/random/streams/randu]: create a readable stream for generating uniformly distributed pseudorandom numbers between 0 and 1.
+-   <span class="package-name">[`@stdlib/random/base/mt19937`][@stdlib/random/base/mt19937]</span><span class="delimiter">: </span><span class="description">A 32-bit Mersenne Twister pseudorandom number generator.</span>
+-   <span class="package-name">[`@stdlib/random/iter/mt19937`][@stdlib/random/iter/mt19937]</span><span class="delimiter">: </span><span class="description">create an iterator for a 32-bit Mersenne Twister pseudorandom number generator.</span>
+-   <span class="package-name">[`@stdlib/random/streams/minstd`][@stdlib/random/streams/minstd]</span><span class="delimiter">: </span><span class="description">create a readable stream for a linear congruential pseudorandom number generator (LCG) based on Park and Miller.</span>
+-   <span class="package-name">[`@stdlib/random/streams/minstd-shuffle`][@stdlib/random/streams/minstd-shuffle]</span><span class="delimiter">: </span><span class="description">create a readable stream for a linear congruential pseudorandom number generator (LCG) whose output is shuffled.</span>
+-   <span class="package-name">[`@stdlib/random/streams/randi`][@stdlib/random/streams/randi]</span><span class="delimiter">: </span><span class="description">create a readable stream for generating pseudorandom numbers having integer values.</span>
+-   <span class="package-name">[`@stdlib/random/streams/randu`][@stdlib/random/streams/randu]</span><span class="delimiter">: </span><span class="description">create a readable stream for generating uniformly distributed pseudorandom numbers between 0 and 1.</span>
 
 </section>
 
@@ -547,8 +547,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/random-streams-mt19937/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/random-streams-mt19937?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/random-streams-mt19937.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/random-streams-mt19937/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
